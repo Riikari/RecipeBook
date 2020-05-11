@@ -1,2 +1,2 @@
-# RecipeBook
-This repository contains a dynamic web page connected to a database. The website is a recipe book where you can look for different types of recipes as well as their ingredients and preparation. Users who register can comment, add and modify new recipes. In addition, there will be an administrator who controls the users who register on it.
+# Recetario
+Este repositorio contiene una página web dinámica conectada a una base de datos. La página web es un recetario donde se podrán buscar diferentes tipos de recetas así como sus ingredientes y su preparación. Los usuarios que se registren podrán comentar, añadir y modificar nuevas recetas. Además, exisitirá un administrador que controle los usuarios que se registran en ella.
