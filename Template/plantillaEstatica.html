@@ -14,7 +14,7 @@
          <header class="bg-dark">
             <div class="row">
                <div class="col-md-1 text-light ml-2">
-                  <p>Logo</p>
+                  <img src="./logo.png" class="img-fluid mx-2"width="80px" alt="logo">
                </div>
                <div class="col-md-9 text-light text-right mr-1">
                   <h1 class="display-4">Titulo de la pagina</h1>
@@ -41,9 +41,48 @@
          <div class="row mt-2">
             <!-- LOGIN Y WIDGETS -->
             <div class="col-md-4">
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               <!-- LOGIN -->
+               <div class="border-dark border border-dark my-2">
+                  <h4 class="bg-dark text-light px-2 py-2">Login</h4>
+                     <form class="mx-4 my-3">
+                       <div class="form-group">
+                         <label>Usuario</label>
+                         <input type="text" class="form-control" id="usuario">
+                       </div>
+                       <div class="form-group">
+                         <label>Contraseña</label>
+                         <input type="password" class="form-control" id="contraseña">
+                         <small class="text-danger">Error al introducir los datos</small>
+                       </div>
+                       <input type="submit" class="btn btn-success " value="Iniciar Sesión"></input>
+                    </form>
+               </div>
+               <!-- LOGOUT -->
+               <div class="border-dark border border-dark my-2">
+                  <h4 class="bg-dark text-light px-2 py-2">Logout</h4>
+                  <p class="text-dark mx-2 my-0">Nombre del cliente</p>
+                  <p class="text-info mx-2 my-0">Permisos que tiene el cliente</p>
+                  <img src="./usuario.jpg" width="100px"class= "rounded mx-auto d-block my-1" alt="Imagen del usuario">
+                     <form class=" row my-3">
+                        <input type="submit" class="btn btn-warning mx-auto" value="Editar"></input>
+                       <input type="submit" class="btn btn-danger mx-auto" value="Cerrar Sesión"></input>
+                     </form>
+               </div>
+               <!-- WIDGET 1 -->
+               <div class="border-dark border border-dark my-2">
+                  <h4 class="bg-dark text-light px-2 py-2">Nº de Recetas</h4>
+                  <p class="text-dark mx-2"> En esta página web hay un total de <b>XXX</b> recetas</p>
+               </div>
+               <!-- WIDGET 2 -->
+               <div class="border-dark border border-dark my-2">
+                  <h4 class="bg-dark text-light px-2 py-2">Recetas más comentadas</h4>
+                  <ol>
+                     <li>Receta 1</li>
+                     <li>Receta 2</li>
+                     <li>Receta 3</li>
+                  </ol>
+               </div>
+
             </div>
             <!-- CONTENIDO -->
             <div class="col-md-8">
@@ -71,8 +110,10 @@
                   </div>
                </div>
 
-               <h4 class="col-md-12 display-6 bg-dark px-2 py-2 mt-2 text-light">Descripción</h4>
-               <p class="col-md-12 bg-ligh text-dark"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               <div class="border border-dark my-2">
+                  <h4 class="col-md-12 display-6 bg-dark py-2 text-light">Descripción</h4>
+                  <p class="col-md-12 bg-ligh text-dark"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               </div>
 
                <h4 class="col-md-12 display-6 bg-dark px-2 py-2 mt-2 text-light">Preparación</h4>
                <ol class="list-group">
@@ -83,6 +124,20 @@
                   <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
                   <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
                </ol>
+
+               <div class="border border-dark mt-2 my-2 ">
+                  <p class="bg-dark text-light">10/07/2020. Juanita Pérez</p>
+                  <p class="bg-text-dark ml-2">Que buena pinta tiene</p>
+               </div>
+               <div class="border border-dark mt-2 my-2">
+                  <p class="bg-dark text-light">10/07/2020. Juanita Pérez</p>
+                  <p class="bg-text-dark ml-2">Que buena pinta tiene</p>
+               </div>
+
+               <div class="row bg-dark px-2 py-2 mx-0 my-2">
+                  <input class="btn btn-warning mx-2 ml-auto" type="button" value="Editar">
+                  <input class="btn btn-danger mx-2" type="button" value="Eliminar">
+               </div>
 
             </div>
          </div>
