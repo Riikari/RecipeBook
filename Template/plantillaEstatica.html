@@ -139,6 +139,99 @@
                   <input class="btn btn-danger mx-2" type="button" value="Eliminar">
                </div>
 
+               <!-- LISTADO RECETA -->
+               <!-- FORMULARIO BUSQUEDA -->
+               <div class="bg-dark px-2 py-2">
+                  <h2 class="display-5 text-light my-2"> Datos de la Receta</h2>
+               </div>
+               <form class="mx-4 my-3">
+                 <div class="form-group row">
+                    <label class="col-md-3">Buscar en Título:</label>
+                    <input type="text" class="form-control col-md-7" id="titulo">
+                 </div>
+                 <div class="form-group row">
+                    <label class="col-md-3">Buscar en Receta:</label>
+                    <input type="text" class="form-control col-md-7" id="receta">
+                 </div>
+                 <div class="form-group row">
+                    <label class="col-md-3">Categoría:</label>
+                    <div class="">
+                       <input class="mr-1 ml-4" type="checkbox" name="Carnes" value="Carnes"><label class="mx-0" for="Carnes">Carnes</label>
+                       <input class="mr-1 ml-4" type="checkbox" name="Pescados" value="Pescados"><label class="mx-0" for="Pescados">Pescados</label>
+                       <input class="mr-1 ml-4" type="checkbox" name="Arroz" value="Arroz"><label class="mx-0" for="Arroz">Arroz</label>
+                       <input class="mr-1 ml-4" type="checkbox" name="Sopa" value="Sopa"><label class="mx-0" for="Sopa">Sopa</label>
+                    </div>
+                    <div class="mx-auto">
+                       <input class="mr-1 ml-4" type="checkbox" name="Facil" value="Facil"><label class="mx-0" for="Facil">Facil</label>
+                       <input class="mr-1 ml-4" type="checkbox" name="Dificil" value="Dificil"><label class="mx-0" for="Dificil">Dificil</label>
+                       <input class="mr-1 ml-4" type="checkbox" name="Ligero" value="Ligero"><label class="mx-0" for="Ligero">Ligero</label>
+                       <input class="mr-1 ml-4" type="checkbox" name="Pesado" value="Pesado"><label class="mx-0" for="Pesado">Pesado</label>
+                    </div>
+                 </div>
+                 <div class="form-group row">
+                     <label class="col-md-3">Ordenar por:</label>
+                     <div class="col-md-12">
+                        <input class="mr-1 ml-4" type="radio" name="orden" value="Alfabético"><label>Alfabético</label>
+                        <input class="mr-1 ml-4" type="radio" name="orden" value="De más a menos comentadas"><label>De más a menos comentadas</label>
+                        <input class="mr-1 ml-4" type="radio" name="orden" value="De más a menos puntuación"><label>De más a menos puntuación</label>
+                     </div>
+                 </div>
+                 <input type="submit" class="btn btn-info" value="Aplicar criterios de ordenación y búsqueda"></input>
+               </form>
+
+               <!-- TABLA -->
+               <table class="table table-striped table-dark">
+                  <thead>
+                     <tr>
+                        <th scope="col">Titulo de la Receta</th>
+                        <th scope="col">Acción</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>Titulo de la receta 1</td>
+                        <td>
+                           <form class="mx-auto">
+                              <input type="submit" class="btn btn-info" value="Ver Receta"></input>
+                              <input type="submit" class="btn btn-warning" value="Editar"></input>
+                              <input type="submit" class="btn btn-danger" value="Eliminar"></input>
+                           </form>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Titulo de la receta 2</td>
+                        <td>
+                           <form class="mx-auto">
+                              <input type="submit" class="btn btn-info" value="Ver Receta"></input>
+                              <input type="submit" class="btn btn-warning" value="Editar"></input>
+                              <input type="submit" class="btn btn-danger" value="Eliminar"></input>
+                           </form>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Titulo de la receta 3</td>
+                        <td>
+                           <form class=" mx-auto">
+                              <input type="submit" class="btn btn-info" value="Ver Receta"></input>
+                              <input type="submit" class="btn btn-warning" value="Editar"></input>
+                              <input type="submit" class="btn btn-danger" value="Eliminar"></input>
+                           </form>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+               <!-- PAGINADOR -->
+                  <nav>
+                    <ul class="pagination justify-content-center">
+                      <li class="page-item disabled"><a class="page-link text-dark" href="#">Anterior</a></li>
+                      <li class="page-item"><a class="page-link " href="#">1</a></li>
+                      <li class="page-item"><a class="page-link " href="#">2</a></li>
+                      <li class="page-item"><a class="page-link " href="#">3</a></li>
+                      <li class="page-item"><a class="page-link " href="#">Siguiente</a></li>
+                    </ul>
+                  </nav>
+
+
             </div>
          </div>
 
