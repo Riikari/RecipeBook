@@ -1,0 +1,35 @@
+#form .clasificacion{
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form .clasificacion p {
+  text-align: center;
+}
+
+#form .clasificacion label {
+  font-size: 30px;
+}
+
+.clasificacion input[type="radio"] {
+  display: none;
+}
+
+.clasificacion label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.clasificacion label:hover,
+.clasificacion label:hover ~ label {
+  color: orange;
+}
+
+.clasificacion input[type="radio"]:checked ~ label {
+  color: orange;
+}
