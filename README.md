@@ -8,7 +8,7 @@ Este repositorio contiene una página web dinámica conectada a una base de dato
 Para realizar correctamente la conexión con la base de datos del servidor, se debe de modificar el archivo [dbcredenciales][credenciales]
 
 ### Documentación
-[Enlace a la Documetnación][documentacion]
+[Enlace a la Documentación][documentacion]   
 Todas las funciones implementadas están comentadas explicando lo que realizan cada una de ellas
 
 ##### Creadores del proyecto
