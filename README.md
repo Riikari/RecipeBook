@@ -12,5 +12,5 @@ Para realizar correctamente la conexión con la base de datos del servidor, se d
 Todas las funciones implementadas están comentadas explicando lo que realizan cada una de ellas
 
 ##### Creadores del proyecto
-+ David Román Castellano
-+ Guillermo Palomino Sánchez
++ https://github.com/davidrc99
++ https://github.com/Riikari
